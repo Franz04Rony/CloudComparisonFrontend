@@ -1,0 +1,15 @@
+
+.github-icon:hover{
+    .octo-arm{
+        animation: shake 150ms infinite alternate cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
+
+@keyframes shake {
+    from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(15deg);
+      }
+}
