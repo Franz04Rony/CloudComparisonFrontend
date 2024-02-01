@@ -31,6 +31,7 @@ function App() {
             <PrimaryButton text={"Containers"} handleClick={()=> onCategories(data.totalData.containers)}/>
             <PrimaryButton text={"Networking"} handleClick={()=> onCategories(data.totalData.networking)}/>
             <PrimaryButton text={"Database"} handleClick={()=> onCategories(data.totalData.database)}/>
+            <PrimaryButton text={"Computing"} handleClick={()=> onCategories(data.totalData.computing)}/>
           </aside>
 
           <section className="flex gap-4 mt-8 flex-wrap justify-center">
